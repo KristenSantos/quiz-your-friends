@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>`Quiz your Friends`</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<h1>Quiz About Me!</h1>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Info About You</legend>
+            <label for="Your-Name">Name</label>
+            <input type="text" name="Your-Name" />
+
+            <label for="Your-Age">Birthday</label>
+            <input type="date" name="Your-Age" />
+
+            <label for="Your-email">Email</label>
+            <input type="email" name="Your-email" />
+        </fieldset>
+        <fieldset>
+            <legend>About Me</legend>
+            <label for="My-name">My name</label>
+            <input type="text" name="My-name">
+
+            <label for="Age">Age</label>
+            <select id="age" name="age">
+                <option value="23">23</option>
+                <option value="18">18</option>
+                <option value="20">20</option>
+            </select><br>
+
+
+            <label for="birthday">Birthday</label><br>
+            <input type="radio" id="sept" name="dob" value="sept">
+            <label for="sept">Sept 21</label> <br>
+            <input type="radio" id="jul" name="dob" value="jul">
+            <label for="jul">July 17</label> <br>
+            <input type="radio" id="dec" name="dob" value="dec">
+            <label for="dec">Dec 09</label> <br>
+
+            <label for="pod">Place of Birth</label><br>
+            <input type="radio" id="new-york" name="pob" value="new-york">
+            <label for="new-york">Brooklyn,NY</label><br>
+            <input type="radio" id="illinos" name="pob" value="illinos">
+            <label for="illinos">Peoria,IL</label><br>
+            <input type="radio" id="california" name="pob" value="california">
+            <label for="california">Orange-County,CA</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Hobbies/Favorite Food</legend>
+            <input type="checkbox" id="hobbie1" name="hobbie1" value="Reading">
+            <label for="hobbie1">I like reading</label><br>
+            <input type="checkbox" id="hobbie2" name="hobbie2" value="Swimming">
+            <label for="hobbie2"> I like swimming</label><br>
+            <input type="checkbox" id="hobbie3" name="hobbie3" value="sims4">
+            <label for="hobbie3"> I like playing Sims4</label><br>
+            <input type="checkbox" id="hobbie4" name="hobbie4" value="Drawing">
+            <label for="hobbie4"> I like drawing</label><br>
+            <input type="checkbox" id="hobbie5" name="hobbie5" value="Baking">
+            <label for="hobbie5"> I like baking</label><br>
+            <input type="checkbox" id="hobbie6" name="hobbie6" value="photo">
+            <label for="hobbie6"> I like photography</label>
+
+            <label for="food">Favorite food</label>
+            <select id="food" name="food">
+                <option value="chickenparmesean">Chicken Parmesean</option>
+                <option value="pizza">Pizza</option>
+                <option value="seasamechicken">Seasame Chicken</option>
+                <option value="posole">Posole</option>
+                <option value="sushi">Sushi</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Tell Us</legend>
+            <input placeholder="How can we improve?" type="textarea" name="tellus" row="10"/>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+
+</html>
